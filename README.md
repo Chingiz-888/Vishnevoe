@@ -1,4 +1,5 @@
-Car sharing application "Vishnevoe" / "Vishneveo"
+Car sharing application "Vishnevoe" / "Vishnevoe"
+https://vk.com/cherrydol
 
 Swift based, iOS 9 application (with iOS 7 support)
 
