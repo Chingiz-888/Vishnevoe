@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Вишевое&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNA-uP-QHp">
+                                <rect key="frame" x="100" y="198" width="121" height="27"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="сервис по car-sharing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rv-5F-2bz">
+                                <rect key="frame" x="71" y="233" width="180" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Автор: Байшурин Чингиз" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xl-P6-lQV">
+                                <rect key="frame" x="60" y="439" width="200" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vishnevoe.png" translatesAutoresizingMaskIntoConstraints="NO" id="sna-5M-WZ1">
+                                <rect key="frame" x="48" y="61" width="224" height="138"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sna-5M-WZ1" secondAttribute="height" multiplier="209:129" id="bax-Rm-ITA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sna-5M-WZ1" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="32" id="HIt-se-szm"/>
+                            <constraint firstItem="9xl-P6-lQV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kel-qo-sp4"/>
+                            <constraint firstItem="2rv-5F-2bz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UA0-8r-Tk9"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="9xl-P6-lQV" secondAttribute="bottom" constant="20" id="ZtX-88-dSq"/>
+                            <constraint firstItem="2rv-5F-2bz" firstAttribute="top" secondItem="XNA-uP-QHp" secondAttribute="bottom" constant="8" id="eof-vU-mY4"/>
+                            <constraint firstItem="sna-5M-WZ1" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="41" id="frL-pm-tUV"/>
+                            <constraint firstItem="XNA-uP-QHp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="opB-R6-JIh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sna-5M-WZ1" secondAttribute="trailing" constant="32" id="up4-XD-QeJ"/>
+                            <constraint firstItem="XNA-uP-QHp" firstAttribute="top" secondItem="sna-5M-WZ1" secondAttribute="bottom" constant="-1" id="zmm-AB-nc7"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vishnevoe.png" width="600" height="487"/>
+    </resources>
+</document>
