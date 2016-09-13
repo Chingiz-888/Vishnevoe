@@ -1,6 +1,12 @@
 Car sharing application "Vishnevoe" / "Vishneveo"
 
-Swift based, iOS 7 supported, works including iOS 9
+Swift based, iOS 9 application (with iOS 7 support)
+
+Stack of technologies:
+1) SWRevealView - for left menu
+2) SMSegmentView - for custom segmented view controllers
+3) Push Notifications that work both on newest version of iOS with supported fallback for iOS 7
+4) Network comminication with back-end (please refer NetworkManager/NetworkManager.swift)
 
 already has been moderated and put on AppStore
 
