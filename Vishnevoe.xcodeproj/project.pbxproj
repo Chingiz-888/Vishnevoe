@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6131D3491D881D9F000AAB5C /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 6131D3471D881D9F000AAB5C /* line.png */; };
+		6131D34A1D881D9F000AAB5C /* poisk.png in Resources */ = {isa = PBXBuildFile; fileRef = 6131D3481D881D9F000AAB5C /* poisk.png */; };
+		6131D34C1D881DC9000AAB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D34B1D881DC9000AAB5C /* AppDelegate.swift */; };
+		6131D34E1D881E3B000AAB5C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6131D34D1D881E3B000AAB5C /* Info.plist */; };
+		6131D3521D881E83000AAB5C /* personaCabinetOfDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3501D881E83000AAB5C /* personaCabinetOfDriver.swift */; };
+		6131D3531D881E83000AAB5C /* personalCabinetOfPassenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3511D881E83000AAB5C /* personalCabinetOfPassenger.swift */; };
+		6131D3591D881EAD000AAB5C /* SMAlphaImageSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3541D881EAD000AAB5C /* SMAlphaImageSegment.swift */; };
+		6131D35A1D881EAD000AAB5C /* SMBasicSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3551D881EAD000AAB5C /* SMBasicSegment.swift */; };
+		6131D35B1D881EAD000AAB5C /* SMBasicSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3561D881EAD000AAB5C /* SMBasicSegmentView.swift */; };
+		6131D35C1D881EAD000AAB5C /* SMSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3571D881EAD000AAB5C /* SMSegment.swift */; };
+		6131D35D1D881EAD000AAB5C /* SMSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3581D881EAD000AAB5C /* SMSegmentView.swift */; };
+		6131D3601D881EB9000AAB5C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6131D35F1D881EB9000AAB5C /* iCarousel.m */; };
+		6131D3621D881EC3000AAB5C /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3611D881EC3000AAB5C /* CopyableLabel.swift */; };
+		6131D3641D881F09000AAB5C /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3631D881F09000AAB5C /* Application.swift */; };
+		6131D3661D881F1C000AAB5C /* Zayavka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3651D881F1C000AAB5C /* Zayavka.swift */; };
+		6131D3681D881F3D000AAB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6131D3671D881F3D000AAB5C /* Assets.xcassets */; };
+		6131D36A1D881F4E000AAB5C /* setTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3691D881F4E000AAB5C /* setTime.swift */; };
+		6131D36D1D881F61000AAB5C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6131D36C1D881F61000AAB5C /* SWRevealViewController.m */; };
+		6131D36F1D881F6D000AAB5C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D36E1D881F6D000AAB5C /* MainViewController.swift */; };
+		6131D3721D881F7F000AAB5C /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3701D881F7F000AAB5C /* Messages.swift */; };
+		6131D3731D881F7F000AAB5C /* MessageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3711D881F7F000AAB5C /* MessageTableCell.swift */; };
+		6131D3751D881F89000AAB5C /* aboutThisProgramm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3741D881F89000AAB5C /* aboutThisProgramm.swift */; };
+		6131D3771D881F97000AAB5C /* personalCabinet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3761D881F97000AAB5C /* personalCabinet.swift */; };
+		6131D3791D881FA0000AAB5C /* settingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D3781D881FA0000AAB5C /* settingsWindow.swift */; };
+		6131D37B1D881FAF000AAB5C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D37A1D881FAF000AAB5C /* NetworkManager.swift */; };
+		6131D37D1D881FBA000AAB5C /* Cabinet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D37C1D881FBA000AAB5C /* Cabinet.swift */; };
+		6131D37F1D881FC4000AAB5C /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131D37E1D881FC4000AAB5C /* TimeModel.swift */; };
+		6131D3861D881FEA000AAB5C /* map1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6131D3841D881FEA000AAB5C /* map1.png */; };
+		6131D3871D881FEA000AAB5C /* map2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6131D3851D881FEA000AAB5C /* map2.png */; };
+		6169A8101D87F64D00A52DE1 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6169A80E1D87F64D00A52DE1 /* Crashlytics.framework */; };
+		6169A8111D87F64D00A52DE1 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6169A80F1D87F64D00A52DE1 /* Fabric.framework */; };
+		6199F9151D0A35E400615199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6199F9131D0A35E400615199 /* Main.storyboard */; };
+		6199F91A1D0A35E400615199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6199F9181D0A35E400615199 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6131D3471D881D9F000AAB5C /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		6131D3481D881D9F000AAB5C /* poisk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poisk.png; sourceTree = "<group>"; };
+		6131D34B1D881DC9000AAB5C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Vishnevoe/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		6131D34D1D881E3B000AAB5C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Vishnevoe/Info.plist; sourceTree = SOURCE_ROOT; };
+		6131D34F1D881E49000AAB5C /* Vishnevoe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Vishnevoe-Bridging-Header.h"; path = "Vishnevoe/Vishnevoe-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		6131D3501D881E83000AAB5C /* personaCabinetOfDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = personaCabinetOfDriver.swift; path = Vishnevoe/personaCabinetOfDriver.swift; sourceTree = SOURCE_ROOT; };
+		6131D3511D881E83000AAB5C /* personalCabinetOfPassenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = personalCabinetOfPassenger.swift; path = Vishnevoe/personalCabinetOfPassenger.swift; sourceTree = SOURCE_ROOT; };
+		6131D3541D881EAD000AAB5C /* SMAlphaImageSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMAlphaImageSegment.swift; path = Vishnevoe/SMAlphaImageSegment.swift; sourceTree = SOURCE_ROOT; };
+		6131D3551D881EAD000AAB5C /* SMBasicSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMBasicSegment.swift; path = Vishnevoe/SMBasicSegment.swift; sourceTree = SOURCE_ROOT; };
+		6131D3561D881EAD000AAB5C /* SMBasicSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMBasicSegmentView.swift; path = Vishnevoe/SMBasicSegmentView.swift; sourceTree = SOURCE_ROOT; };
+		6131D3571D881EAD000AAB5C /* SMSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMSegment.swift; path = Vishnevoe/SMSegment.swift; sourceTree = SOURCE_ROOT; };
+		6131D3581D881EAD000AAB5C /* SMSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMSegmentView.swift; path = Vishnevoe/SMSegmentView.swift; sourceTree = SOURCE_ROOT; };
+		6131D35E1D881EB9000AAB5C /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = Vishnevoe/iCarousel.h; sourceTree = SOURCE_ROOT; };
+		6131D35F1D881EB9000AAB5C /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = Vishnevoe/iCarousel.m; sourceTree = SOURCE_ROOT; };
+		6131D3611D881EC3000AAB5C /* CopyableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CopyableLabel.swift; path = Vishnevoe/CopyableLabel.swift; sourceTree = SOURCE_ROOT; };
+		6131D3631D881F09000AAB5C /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Vishnevoe/Application.swift; sourceTree = SOURCE_ROOT; };
+		6131D3651D881F1C000AAB5C /* Zayavka.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Zayavka.swift; path = Vishnevoe/Zayavka.swift; sourceTree = SOURCE_ROOT; };
+		6131D3671D881F3D000AAB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Vishnevoe/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		6131D3691D881F4E000AAB5C /* setTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = setTime.swift; path = Vishnevoe/setTime.swift; sourceTree = SOURCE_ROOT; };
+		6131D36B1D881F61000AAB5C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Vishnevoe/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		6131D36C1D881F61000AAB5C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Vishnevoe/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		6131D36E1D881F6D000AAB5C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Vishnevoe/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		6131D3701D881F7F000AAB5C /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Messages.swift; path = Vishnevoe/Messages.swift; sourceTree = SOURCE_ROOT; };
+		6131D3711D881F7F000AAB5C /* MessageTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageTableCell.swift; path = Vishnevoe/MessageTableCell.swift; sourceTree = SOURCE_ROOT; };
+		6131D3741D881F89000AAB5C /* aboutThisProgramm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aboutThisProgramm.swift; path = Vishnevoe/aboutThisProgramm.swift; sourceTree = SOURCE_ROOT; };
+		6131D3761D881F97000AAB5C /* personalCabinet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = personalCabinet.swift; path = Vishnevoe/personalCabinet.swift; sourceTree = SOURCE_ROOT; };
+		6131D3781D881FA0000AAB5C /* settingsWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingsWindow.swift; path = Vishnevoe/settingsWindow.swift; sourceTree = SOURCE_ROOT; };
+		6131D37A1D881FAF000AAB5C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Vishnevoe/NetworkManager.swift; sourceTree = SOURCE_ROOT; };
+		6131D37C1D881FBA000AAB5C /* Cabinet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cabinet.swift; path = Vishnevoe/Cabinet.swift; sourceTree = SOURCE_ROOT; };
+		6131D37E1D881FC4000AAB5C /* TimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeModel.swift; path = Vishnevoe/TimeModel.swift; sourceTree = SOURCE_ROOT; };
+		6131D3841D881FEA000AAB5C /* map1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map1.png; path = Vishnevoe/map1.png; sourceTree = "<group>"; };
+		6131D3851D881FEA000AAB5C /* map2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map2.png; path = Vishnevoe/map2.png; sourceTree = "<group>"; };
+		6169A80E1D87F64D00A52DE1 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		6169A80F1D87F64D00A52DE1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		6199F90C1D0A35E400615199 /* Vishnevoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vishnevoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6199F9141D0A35E400615199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6199F9191D0A35E400615199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6199F9091D0A35E400615199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6169A8101D87F64D00A52DE1 /* Crashlytics.framework in Frameworks */,
+				6169A8111D87F64D00A52DE1 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610C40A11D25387000409D4F /* NetworkCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				6131D37A1D881FAF000AAB5C /* NetworkManager.swift */,
+			);
+			name = NetworkCommunication;
+			sourceTree = "<group>";
+		};
+		610E2DED1D3E8C54007491DA /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				6131D3631D881F09000AAB5C /* Application.swift */,
+				6131D3651D881F1C000AAB5C /* Zayavka.swift */,
+			);
+			name = Forms;
+			sourceTree = "<group>";
+		};
+		610E2DEE1D3E8C7A007491DA /* SMSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				6131D3541D881EAD000AAB5C /* SMAlphaImageSegment.swift */,
+				6131D3551D881EAD000AAB5C /* SMBasicSegment.swift */,
+				6131D3561D881EAD000AAB5C /* SMBasicSegmentView.swift */,
+				6131D3571D881EAD000AAB5C /* SMSegment.swift */,
+				6131D3581D881EAD000AAB5C /* SMSegmentView.swift */,
+			);
+			name = SMSegmentView;
+			sourceTree = "<group>";
+		};
+		610E2DEF1D3E8CB1007491DA /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				6131D35E1D881EB9000AAB5C /* iCarousel.h */,
+				6131D35F1D881EB9000AAB5C /* iCarousel.m */,
+			);
+			name = iCarousel;
+			sourceTree = "<group>";
+		};
+		610E2DF01D3E8CDF007491DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6131D3471D881D9F000AAB5C /* line.png */,
+				6131D3481D881D9F000AAB5C /* poisk.png */,
+				6131D3841D881FEA000AAB5C /* map1.png */,
+				6131D3851D881FEA000AAB5C /* map2.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		612B8D1E1D1B5DD000FA774A /* SWRevealViewController_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6131D36B1D881F61000AAB5C /* SWRevealViewController.h */,
+				6131D36C1D881F61000AAB5C /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController_Menu;
+			sourceTree = "<group>";
+		};
+		614B7ACA1D229D9E009B47FD /* icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		614B7AD91D22A6AA009B47FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6131D37C1D881FBA000AAB5C /* Cabinet.swift */,
+				6131D37E1D881FC4000AAB5C /* TimeModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6169A8121D87F95F00A52DE1 /* Auxiliary Functions */ = {
+			isa = PBXGroup;
+			children = (
+				6131D3611D881EC3000AAB5C /* CopyableLabel.swift */,
+			);
+			name = "Auxiliary Functions";
+			sourceTree = "<group>";
+		};
+		6199F9031D0A35E400615199 = {
+			isa = PBXGroup;
+			children = (
+				6169A80E1D87F64D00A52DE1 /* Crashlytics.framework */,
+				6169A80F1D87F64D00A52DE1 /* Fabric.framework */,
+				6199F90E1D0A35E400615199 /* Vishnevoe */,
+				6199F90D1D0A35E400615199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6199F90D1D0A35E400615199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6199F90C1D0A35E400615199 /* Vishnevoe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6199F90E1D0A35E400615199 /* Vishnevoe */ = {
+			isa = PBXGroup;
+			children = (
+				6169A8121D87F95F00A52DE1 /* Auxiliary Functions */,
+				610E2DF01D3E8CDF007491DA /* Images */,
+				610E2DEF1D3E8CB1007491DA /* iCarousel */,
+				610E2DEE1D3E8C7A007491DA /* SMSegmentView */,
+				610E2DED1D3E8C54007491DA /* Forms */,
+				61CD67881D2E9939006A1448 /* Menu_Items */,
+				610C40A11D25387000409D4F /* NetworkCommunication */,
+				614B7AD91D22A6AA009B47FD /* Model */,
+				614B7ACA1D229D9E009B47FD /* icons */,
+				612B8D1E1D1B5DD000FA774A /* SWRevealViewController_Menu */,
+				6131D34B1D881DC9000AAB5C /* AppDelegate.swift */,
+				6131D3691D881F4E000AAB5C /* setTime.swift */,
+				6131D36E1D881F6D000AAB5C /* MainViewController.swift */,
+				6199F9131D0A35E400615199 /* Main.storyboard */,
+				6131D3671D881F3D000AAB5C /* Assets.xcassets */,
+				6199F9181D0A35E400615199 /* LaunchScreen.storyboard */,
+				6131D34D1D881E3B000AAB5C /* Info.plist */,
+				6131D34F1D881E49000AAB5C /* Vishnevoe-Bridging-Header.h */,
+			);
+			path = Vishnevoe;
+			sourceTree = "<group>";
+		};
+		61CD67881D2E9939006A1448 /* Menu_Items */ = {
+			isa = PBXGroup;
+			children = (
+				6131D3701D881F7F000AAB5C /* Messages.swift */,
+				6131D3711D881F7F000AAB5C /* MessageTableCell.swift */,
+				6131D3741D881F89000AAB5C /* aboutThisProgramm.swift */,
+				6131D3501D881E83000AAB5C /* personaCabinetOfDriver.swift */,
+				6131D3761D881F97000AAB5C /* personalCabinet.swift */,
+				6131D3511D881E83000AAB5C /* personalCabinetOfPassenger.swift */,
+				6131D3781D881FA0000AAB5C /* settingsWindow.swift */,
+			);
+			name = Menu_Items;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6199F90B1D0A35E400615199 /* Vishnevoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6199F91E1D0A35E400615199 /* Build configuration list for PBXNativeTarget "Vishnevoe" */;
+			buildPhases = (
+				6199F9081D0A35E400615199 /* Sources */,
+				6199F9091D0A35E400615199 /* Frameworks */,
+				6199F90A1D0A35E400615199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vishnevoe;
+			productName = Vishnevoe;
+			productReference = 6199F90C1D0A35E400615199 /* Vishnevoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6199F9041D0A35E400615199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Чингиз Б";
+				TargetAttributes = {
+					6199F90B1D0A35E400615199 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JFS8TB5L7H;
+					};
+				};
+			};
+			buildConfigurationList = 6199F9071D0A35E400615199 /* Build configuration list for PBXProject "Vishnevoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6199F9031D0A35E400615199;
+			productRefGroup = 6199F90D1D0A35E400615199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6199F90B1D0A35E400615199 /* Vishnevoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6199F90A1D0A35E400615199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6131D34E1D881E3B000AAB5C /* Info.plist in Resources */,
+				6199F91A1D0A35E400615199 /* LaunchScreen.storyboard in Resources */,
+				6131D3861D881FEA000AAB5C /* map1.png in Resources */,
+				6131D3871D881FEA000AAB5C /* map2.png in Resources */,
+				6131D34A1D881D9F000AAB5C /* poisk.png in Resources */,
+				6199F9151D0A35E400615199 /* Main.storyboard in Resources */,
+				6131D3681D881F3D000AAB5C /* Assets.xcassets in Resources */,
+				6131D3491D881D9F000AAB5C /* line.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6199F9081D0A35E400615199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6131D37D1D881FBA000AAB5C /* Cabinet.swift in Sources */,
+				6131D37B1D881FAF000AAB5C /* NetworkManager.swift in Sources */,
+				6131D3661D881F1C000AAB5C /* Zayavka.swift in Sources */,
+				6131D36F1D881F6D000AAB5C /* MainViewController.swift in Sources */,
+				6131D37F1D881FC4000AAB5C /* TimeModel.swift in Sources */,
+				6131D35D1D881EAD000AAB5C /* SMSegmentView.swift in Sources */,
+				6131D36D1D881F61000AAB5C /* SWRevealViewController.m in Sources */,
+				6131D35B1D881EAD000AAB5C /* SMBasicSegmentView.swift in Sources */,
+				6131D3601D881EB9000AAB5C /* iCarousel.m in Sources */,
+				6131D3621D881EC3000AAB5C /* CopyableLabel.swift in Sources */,
+				6131D35A1D881EAD000AAB5C /* SMBasicSegment.swift in Sources */,
+				6131D3751D881F89000AAB5C /* aboutThisProgramm.swift in Sources */,
+				6131D3791D881FA0000AAB5C /* settingsWindow.swift in Sources */,
+				6131D3641D881F09000AAB5C /* Application.swift in Sources */,
+				6131D3771D881F97000AAB5C /* personalCabinet.swift in Sources */,
+				6131D35C1D881EAD000AAB5C /* SMSegment.swift in Sources */,
+				6131D3521D881E83000AAB5C /* personaCabinetOfDriver.swift in Sources */,
+				6131D3721D881F7F000AAB5C /* Messages.swift in Sources */,
+				6131D3591D881EAD000AAB5C /* SMAlphaImageSegment.swift in Sources */,
+				6131D36A1D881F4E000AAB5C /* setTime.swift in Sources */,
+				6131D3731D881F7F000AAB5C /* MessageTableCell.swift in Sources */,
+				6131D3531D881E83000AAB5C /* personalCabinetOfPassenger.swift in Sources */,
+				6131D34C1D881DC9000AAB5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6199F9131D0A35E400615199 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6199F9141D0A35E400615199 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6199F9181D0A35E400615199 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6199F9191D0A35E400615199 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6199F91C1D0A35E400615199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6199F91D1D0A35E400615199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6199F91F1D0A35E400615199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets-2";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)___",
+				);
+				INFOPLIST_FILE = Vishnevoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.baydevgroup.VishnevoeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vishnevoe/Vishnevoe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6199F9201D0A35E400615199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets-2";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)___",
+				);
+				INFOPLIST_FILE = Vishnevoe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.baydevgroup.VishnevoeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vishnevoe/Vishnevoe-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6199F9071D0A35E400615199 /* Build configuration list for PBXProject "Vishnevoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6199F91C1D0A35E400615199 /* Debug */,
+				6199F91D1D0A35E400615199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6199F91E1D0A35E400615199 /* Build configuration list for PBXNativeTarget "Vishnevoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6199F91F1D0A35E400615199 /* Debug */,
+				6199F9201D0A35E400615199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6199F9041D0A35E400615199 /* Project object */;
+}
